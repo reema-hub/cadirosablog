@@ -1,0 +1,864 @@
+/*-----------------------------HEADER--------------------------------------------*/
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+ul
+{
+    list-style: none;
+}
+.clearfix
+{
+    clear:both;
+}
+/*------------------------------Navigation ---------------------------------------------*/
+
+.mainnav 
+{
+    background-color:#ffb3d9;
+    overflow: hidden;
+    font-family:"Simplified Arabic Fixed";
+}
+.mainnav a
+{
+    float:right;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    
+}
+
+/* visited link */
+.mainnav a:visited 
+{
+    text-decoration: none;
+}
+
+/* mouse over link*/ 
+.mainnav a:hover 
+{
+  background-color: #000;
+  color: #f2f2f2;
+}
+.Collection {
+  float: right;
+  overflow: hidden;
+}
+
+.Collection .dropbutton {
+    font-family: "Simplified Arabic Fixed";
+    background-color:#ffb3d9;
+  border: none;
+  outline: none;
+color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+  margin: 0;
+}
+
+.mainnav a:hover, .Collection:hover .dropbutton {
+  background-color:#000;
+}
+.dropdowncollection {
+  display: none;
+  position: absolute;
+  background-color:#ffb3d9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdowncollection a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdowncollection a:hover {
+  background-color: #000;
+}
+
+.Collection:hover .dropdowncollection {
+  display: block;
+}
+.mainnav .logo
+{
+    display: flex;
+    align-items:flex-start;
+    padding-left: 60px;
+    padding-right: 10px;
+}
+.mainnav .logo img
+{ 
+   height:50px;
+    width:50px; 
+}
+.mainnav .logo h1
+{ 
+  font-size: 47px;
+    font-family: "Edwardian Script ITC", cursive;
+    color: #fff;
+}
+/*------------------------------logo-----------------------------------------------*/
+.logoimg
+{
+    background-image: url(https://i.pinimg.com/564x/a9/fe/01/a9fe0166a98ee0652b385539b97ed656.jpg);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size:contain;
+    padding: 60px;
+}
+.logoimg h1
+{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Kunstler Script", cursive;
+    color:#000;
+}
+.logoimg p
+{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Montserrat","times new roman" ;
+    letter-spacing: 25px;
+    padding-left: 45px;
+ }
+
+/*------------------------------Header-----------------------------------------------*/
+/*https://images.pexels.com/photos/913416/pexels-photo-913416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+https://i.pinimg.com/564x/08/90/d7/0890d78c24b2bd9d3f7aa85b01b26fe9.jpg
+https://i.pinimg.com/564x/a6/0d/ca/a60dcae7e25801d0067f9c6ed2a5b86e.jpg
+*/
+.mainhead .intro
+{
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/396-felix-mg-2040-i.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=29e554b227bfd792c6155763d798149c);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 180px;
+}
+.mainhead .intro section
+{
+  background-color: #ffb3d9;
+     background-position:left;
+    background-repeat: no-repeat;
+    background-size:auto;
+    margin-top: 170px;
+    margin-right: 300px;
+    margin-left: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    -webkit-border-top-right-radius:200px;
+    -moz-border-top-right-radius:200px;
+    -o-border-top-right-radius:200px;
+    -ms-border-top-right-radius:200px;
+    -webkit-border-bottom-left-radius:150px;
+    -moz-border-bottom-left-radius:150px;
+     -o-border-bottom-left-radius:150px;
+    -ms-border-bottom-left-radius:150px;
+}
+.mainhead .intro h3 
+{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    font-family:"Simplified Arabic Fixed";
+    color:#fff;
+    letter-spacing: 4px; 
+    padding-bottom:10px;
+    padding-top: 15px;
+}
+.mainhead .intro p
+{
+    padding-bottom: 15px;
+   font-family: "Montserrat","times new roman" ;
+   font-size: 30px;
+    text-align: center; 
+    padding-left: 20px;
+        color: #fff;
+}
+/*-----------------------------MAIN CONTENT1-----------------------------------------*/
+.asideintro
+{
+    float: right;
+    width: 33%;
+}
+.maincontent
+{
+    padding: 15px;
+    margin: 20px;
+    background-color:#ffcce6;
+}
+.maincontent .Imageintro
+{
+    padding: 10px;
+}
+.Imageintro img
+{
+    border-radius: 50%;
+    height: 480px;
+        width: 350px;        
+}
+.maincontent .Introduction
+{
+background-color:#ffe6f3;
+    padding-top:10px;
+ }
+.maincontent .Introduction h3
+{
+    text-align: center;
+    font-family: "Simplified Arabic Fixed";
+
+    font-size: 25px;
+        font-weight: 300;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.maincontent .Introduction p
+{
+    padding-bottom: 5px;
+   font-family: "Montserrat","times new roman" ;
+   font-size: 22px;
+    text-align: center;
+}
+.maincontent .Introduction a
+{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    text-align: center;
+    font-family: "Simplified Arabic Fixed";
+    font-size: 18px;
+}
+
+.maincontent .Introduction a:link
+{
+    text-decoration: none;      
+}
+.maincontent .Introduction a:hover 
+{
+    transform: scale(1.2,1.2);
+    color:#ff1a8c;
+    font-weight: 700;
+    text-decoration: underline;
+}
+/*-----------------------------MAIN CONTENT2-----------------------------------------*/
+.maincontent2
+{ 
+    margin:50px;
+   display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffcce6;
+}
+.maincontent2 .Imagestory
+{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+.Imagestory img
+{
+    height: 420px;
+        width: 300px;
+    border-radius: 10px;
+}
+.maincontent2 .storycadirose
+{
+    background-color:#ffe6f3;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 15px;
+}
+
+.maincontent2 .storycadirose h3
+{
+    text-align: center;
+    font-family: "Simplified Arabic Fixed";
+    font-size: 25px;
+        font-weight: 300;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+.maincontent2 .storycadirose p
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+   font-family: "Montserrat","times new roman" ;
+   font-size: 22px;
+    text-align: center;
+}
+.maincontent2 .storycadirose a
+{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+    text-align: center;
+    font-family: "Simplified Arabic Fixed";
+    font-size: 18px;
+}
+
+.maincontent2 .storycadirose a:link
+{
+    text-decoration: none;      
+}
+.maincontent2 .storycadirose a:hover 
+{
+    
+    transform: scale(1.2,1.2);
+    color:#ff1a8c;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+
+/*-----------------------------artical 1----------------------------------------*/
+/*-------head-------- */
+.headartical
+{
+    border-bottom: 2px solid #ffb3d9;
+    margin-top: 10px;
+    margin-left: 150px;
+     margin-right: 150px;
+    margin-bottom: 30px;
+}
+.headartical h1 
+{
+    padding-bottom: 10px;
+  text-align: center;
+    font-family: "Simplified Arabic Fixed";
+    font-size: 30px;
+    font-weight:300;
+}
+
+/*-------head-------- */
+.Artical1
+{
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid #ffb3d9;
+    padding: 40px;
+    display: flex;
+   align-items:center;
+}
+.Artical1 .foodimage img
+{
+   width:400px;
+    height: 570px;
+    border-radius: 20px 100px 20px 100px;
+}
+.Artical1 .foodphoto
+{
+  background-color:#ffcce6;
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius: 10px;
+}
+.Artical1 .foodphoto h3
+{
+    text-align: center;
+    font-family: "Simplified Arabic Fixed";
+    font-size: 40px;
+        font-weight: 300;
+    padding-bottom: 10px;
+    letter-spacing: 4px;
+}
+.Artical1 .foodphoto p
+{
+    padding-top: 10px;
+   font-family: "Montserrat","times new roman" ;
+   font-size: 22px;
+    text-align: center;
+}
+.Artical1 .foodphoto a
+{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+    text-align: center;
+    font-family: "Simplified Arabic Fixed";
+    font-size: 18px;
+}
+
+.Artical1 .foodphoto a:link
+{
+    text-decoration: none;      
+}
+.Artical1 .foodphoto a:hover 
+{
+    
+    transform: scale(1.2,1.2);
+    color:#ff1a8c;
+    font-weight: 700;
+    text-decoration: underline;
+}
+/*-----------------------------artical 2----------------------------------------*/
+
+.Artical2
+{
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid #ffb3d9;
+    padding: 40px;
+    display: flex;
+   align-items:center;
+}
+.Artical2 .insparingphoto img
+{
+   width:400px;
+    height: 550px;
+    border-radius: 100px 20px 100px 20px;
+}
+.Artical2 .Inspiration
+{
+  background-color:#ffcce6;
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.Artical2 .Inspiration h3
+{
+    text-align: center;
+    font-family: "Simplified Arabic Fixed";
+    font-size: 40px;
+        font-weight: 300;
+    padding-bottom: 10px;
+    letter-spacing: 4px;
+}
+.Artical2 .Inspiration p
+{
+    padding-top: 10px;
+   font-family: "Montserrat","times new roman" ;
+   font-size: 22px;
+    text-align: center;
+}
+.Artical2 .Inspiration a
+{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+    text-align: center;
+    font-family: "Simplified Arabic Fixed";
+    font-size: 18px;
+}
+
+.Artical2 .Inspiration a:link
+{
+    text-decoration: none;      
+}
+.Artical2 .Inspiration a:hover 
+{
+    
+    transform: scale(1.2,1.2);
+    color:#ff1a8c;
+    font-weight: 700;
+    text-decoration: underline;
+}
+/*-----------------------------artical 3----------------------------------------*/
+
+.Artical3
+{
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid #ffb3d9;
+    padding: 40px;
+    display: flex;
+   align-items:center;
+}
+.Artical3 .insparingphoto img
+{
+   width:400px;
+    height: 550px; 
+    border-radius: 20px 100px 20px 100px;
+}
+.Artical3 .Inspiration
+{
+  background-color:#ffcce6;
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.Artical3 .Inspiration h3
+{
+    text-align: center;
+    font-family: "Simplified Arabic Fixed";
+    font-size: 40px;
+        font-weight: 300;
+    padding-bottom: 10px;
+    letter-spacing: 4px;
+}
+.Artical3 .Inspiration p
+{
+    padding-top: 10px;
+   font-family: "Montserrat","times new roman" ;
+   font-size: 22px;
+    text-align: center;
+}
+.Artical3 .Inspiration a
+{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+    text-align: center;
+    font-family: "Simplified Arabic Fixed";
+    font-size: 18px;
+}
+
+.Artical3 .Inspiration a:link
+{
+    text-decoration: none;      
+}
+.Artical3 .Inspiration a:hover 
+{
+    transform: scale(1.2,1.2);
+    color:#ff1a8c;
+    font-weight: 700;
+    text-decoration: underline;
+}
+/*-----------------------------artical 4----------------------------------------*/
+.Artical4
+{
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid #ffb3d9;
+    padding: 40px;
+    display: flex;
+   align-items:center;
+}
+.Artical4 .insparingphoto img
+{
+   width:400px;
+    height: 550px;
+    border-radius: 100px 20px 100px 20px;
+}
+.Artical4 .Inspiration
+{
+  background-color:#ffcce6;
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.Artical4 .Inspiration h3
+{
+    text-align: center;
+    font-family: "Simplified Arabic Fixed";
+    font-size: 40px;
+        font-weight: 300;
+    padding-bottom: 10px;
+    letter-spacing: inherit;
+}
+.Artical4 .Inspiration p
+{
+    padding-top: 10px;
+   font-family: "Montserrat","times new roman" ;
+   font-size: 22px;
+    text-align: center;
+}
+.Artical4 .Inspiration a
+{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+    text-align: center;
+    font-family: "Simplified Arabic Fixed";
+    font-size: 18px;
+}
+
+.Artical4 .Inspiration a:link
+{
+    text-decoration: none;      
+}
+.Artical4 .Inspiration a:hover 
+{
+    transform: scale(1.2,1.2);
+    color:#ff1a8c;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+/*-----------------------------Section----------------------------------------*/
+.Ads
+{
+    border-bottom: 2px solid #ffb3d9;
+    margin-left: 150px;
+     margin-right: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Ads h1 
+{
+    padding-bottom: 10px;
+  text-align: center;
+    font-family: "Simplified Arabic Fixed";
+    font-size: 30px;
+    font-weight:300;
+}
+/*-----------------------------Section----------------------------------------*/
+.Sectionpart
+{
+    margin: 30px;
+    border: 1px solid #ffb3d9;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+   align-items:center;
+}
+.Sectionpart  .Weddingphotoshot img
+{
+    display: block;
+    padding: 10px;
+    width: 100%;
+  height: auto;
+}
+.Weddingphotoshot
+{
+    position: relative;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+    width:100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#f4f6fd;
+}
+
+.Weddingphotoshot:hover .overlay {
+  opacity:0.8;
+}
+
+.text {
+    font-family: "Brush Script MT", "Freestyle Script", cursive;
+  color: black;
+  font-size: 30px;
+    font-weight: 300;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*---------------------------Baby Photoshot----------------------------------------*/
+.KidsPhotoshot
+{
+    position: relative;
+  width: 50%;
+}
+.Sectionpart .KidsPhotoshot img
+{
+    display: block;
+    padding: 30px;
+    width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+    width:100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#f4f6fd;
+     border-radius: 20px;
+}
+
+.KidsPhotoshot:hover .overlay {
+  opacity:0.8;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*---------------------------Graduation-Photoshot----------------------------------------*/
+.GraduationPhotoshot
+{
+    position: relative;
+  width: 50%;
+}
+.Sectionpart .GraduationPhotoshot .img
+{
+    display: block;
+    padding: 10px;
+    width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+    width:100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#ffb3d9;
+}
+
+.GraduationPhotoshot:hover .overlay {
+  opacity:0.8;
+}
+
+.text {
+  color: #fff;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*-----------------------------footer----------------------------------------*/
+.footer 
+{
+    background-color: #ffb3d9; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+.footer .foot
+{ 
+  text-align: center; 
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom: 30px;
+    margin-top:30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer .foot  h1
+{
+font-family: "Simplified Arabic Fixed";
+    font-size: 20px; 
+    letter-spacing: 3px;
+    padding-bottom: 5px;
+}
+.footer .foot .info  h3 a
+{
+   color:#000;
+}
+/* unvisited link */
+ .footer .foot .info  h3 a:link 
+{
+    color:#000;
+    font-family: "Montserrat","times new roman" ;
+    font-size: 18px;
+    text-decoration: none;
+}
+/* visited link */
+.footer .foot .info  h3 a:visited 
+{
+    text-decoration: none;
+}
+
+/* mouse over link */ 
+.footer .foot .info  h3 a:hover 
+{
+    transform: scale(1.2,1.2);
+    color: #fff;
+    text-decoration: underline;
+}
+.copyright
+{
+  
+    padding-top: 10px;
+}
+.copyright p
+{
+    text-align: center;
+    font-family: "Simplified Arabic Fixed";
+    color:#ffb3d9; 
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+
+ 
