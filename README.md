@@ -1,0 +1,2 @@
+# cadirosablog
+Photography Blog
